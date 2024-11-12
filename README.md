@@ -6,7 +6,9 @@
 
 ## What does this do?
 
-
+<h3 align="center">
+  <img height="60%" width="60%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-diagram.jpg"/>
+</h3>
 
 ## Setup 
 
