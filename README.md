@@ -10,9 +10,17 @@
   <img height="60%" width="60%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-diagram.jpg"/>
 </h3>
 
+- The _client_ creates a HTTP request
+- The HTTP request generates a set of _seed words_
+- The _seed words_ are used to generate a _title_
+- The _title_ is used to generate a _description_
+- The _description_ is used a generative video prompt
+- A YouTube short style video is created and exported to a dedicated folder
+- If you want to loop the creation process, start _looper.py_ and a HTTP request will be sent every 2 minutes
+
 ## Setup 
 
-`illogica-factory` requires [Python 3.11](https://www.python.org/downloads/) to run effectively.
+`illogica-factory` requires [Python 3.11](https://www.python.org/downloads/) to run effectively. After you finished installing Python, you can install `illogica-factory` by following the steps below:
 
 ### Install the project requirements
 ``` bash
@@ -32,8 +40,6 @@ This will activate your virtual environment. Immediately, you will notice that y
 ``` bash
 source env/bin/activate
 ```
-
-After you finished installing Python, you can install `illogica-factory` by following the steps below:
 
 ### Create .env file
 See [`.env.example`](.env.example) for the required environment variables. Once you've added all the necessary data, name the file _.env_
@@ -76,12 +82,14 @@ ASSEMBLY_AI_API_KEY=""
 GOOGLE_API_KEY=""
 
 ```
+
 ### Run the project
 
 ``` bash
 cd Backend
 python main.py
 ```
+<img width="943" alt="Screenshot 2024-11-11 at 23 18 21" src="https://github.com/user-attachments/assets/17b73454-b62c-4837-970d-608f0166306a">
 
 ## Music 
 
@@ -98,22 +106,20 @@ Add your fonts to the `fonts/` folder, and load them by specifying the font name
 If you were not able to find your solution, please ask in the discord or create a new issue, so that the community can help you.
 
 ## Where can I find this stuff?
-
+Videos from _illogica-factory_ can be found on _schwwaaa_
 - [YouTube](https://www.youtube.com/@schwwaaa)
 - [Instagram](https://www.instagram.com/schwwaaa/)
-
-Schwwaaa, the pioneering global conglomerate, leads the charge in providing innovative corporate solutions designed to address everyday challenges and shape a brighter future. With a commitment to excellence and efficiency, Schwwaaa empowers businesses and communities alike to thrive in an ever-evolving world. Through its visionary leadership and cutting-edge technologies, Schwwaaa exemplifies the transformative potential of corporate ingenuity in creating a better tomorrow for all.
 
 ## Notes 
 * The project is a forked enhancement of [Money Printer](https://github.com/FujiwaraChoki/MoneyPrinter/)
 
 ## FAQ
 
-## How do I get the TikTok session ID?
+### How do I get the TikTok session ID?
 
 You can obtain your TikTok session ID by logging into TikTok in your browser and copying the value of the `sessionid` cookie.
 
-## My ImageMagick binary is not being detected
+### My ImageMagick binary is not being detected
 
 Make sure you set your path to the ImageMagick binary correctly in the `.env` file, it should look something like this:
 
