@@ -7,7 +7,7 @@
 ## What does this do?
 
 <h3 align="center">
-  <img height="80%" width="80%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-diagram.jpg"/>
+  <img height="90%" width="90%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-diagram.jpg"/>
 </h3>
 
 - The _client_ creates a HTTP request
