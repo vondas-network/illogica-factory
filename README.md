@@ -83,13 +83,28 @@ GOOGLE_API_KEY=""
 
 ```
 
-### Run the project
+### Start the server
 
 ``` bash
 cd Backend
-python main.py
+python3 main.py
 ```
+
 <img width="943" alt="Screenshot 2024-11-11 at 23 18 21" src="https://github.com/user-attachments/assets/17b73454-b62c-4837-970d-608f0166306a">
+
+Send an HTTP request to the route below to begin generating a new YouTube short.
+
+```
+curl --location 'localhost:8080/trigger_route'
+```
+
+### Looping HTTP request
+
+```
+python3 looper.py
+```
+
+After starting the program, every 2 minutes an HTTP request will be sent to the already running server. 
 
 ## Music 
 
