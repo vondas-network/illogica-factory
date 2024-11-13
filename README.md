@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img height="30%" width="30%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-logo.png"/>
+  <img height="40%" width="40%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-logo.png"/>
 </h3>
 
 <p align="center"><em>Automate Creation of YouTube Shorts using AI feedback loops</em></p> 
