@@ -2,7 +2,7 @@
   <img height="40%" width="40%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-logo.png"/>
 </h3>
 
-<p align="center"><em>Automate Creation of YouTube Shorts using AI feedback loops</em></p> 
+<p align="center"><em>Automate creation of YouTube Shorts using AI feedback loops</em></p> 
 
 ## What does this do?
 
