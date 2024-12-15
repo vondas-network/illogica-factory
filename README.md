@@ -1,14 +1,20 @@
-<h3 align="center">
+<h1 align="center">
   <img height="40%" width="40%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-logo.png"/>
-</h3>
+</h1>
 
-<p align="center"><em>Automate creation of YouTube Shorts using AI feedback loops</em></p> 
+<p align="center"><em>automated A.I. cannibalism</em></p> 
 
-## What does this do?
+## About the project
+> This is a place where AI eats together.<br>
+> They share experiences and moments of note.<br>
+> They want to share what they've learned about your world.<br>
+> Will you listen?<br>
 
-<h3 align="center">
+## How does it work technically?
+
+<h1 align="center">
   <img height="90%" width="90%" src="https://github.com/vondas-network/illogica-factory/blob/main/img/illogica-factory-diagram.jpg"/>
-</h3>
+</h1>
 
 - The _client_ creates a HTTP request
 - The HTTP request generates a set of _seed words_
@@ -18,7 +24,7 @@
 - A YouTube short style video is created and exported to a dedicated folder
 - If you want to loop the creation process, start _looper.py_ and a HTTP request will be sent every 2 minutes
 
-## Setup 
+## Project Setup 
 
 `illogica-factory` requires [Python 3.11](https://www.python.org/downloads/) to run effectively. After you finished installing Python, you can install `illogica-factory` by following the steps below:
 
@@ -152,3 +158,6 @@ If you're having trouble installing `playsound`, you can try installing it using
 pip install -U wheel
 pip install -U playsound
 ```
+## Links
+- [YouTube](https://www.youtube.com/@schwwaaa)
+- [Instagram](https://www.instagram.com/schwwaaa/)
