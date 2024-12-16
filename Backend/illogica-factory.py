@@ -407,7 +407,7 @@ def target_route():
         "threads": "2",
         "subtitlesPosition": "center,center",
         "customPrompt": "",
-        "color": "#FFFF00",
+        "color": "#00FE7F",
         "generatedTitle": "Unveiling Stories Beyond Words"
     }'''
 
@@ -452,6 +452,20 @@ def target_route():
     # json_data['voice'] = "en_us_006"  # Inject a new title
     json_data['voice'] = selected_voice  # Inject a new title
     # print("PASSING MODIFIED JSON -------> GENERATE", json_data)
+
+    # Get the current Linux timestamp
+    timestamp = int(time.time())
+
+    # File name with timestamp
+    file_name = f"../data/illogica-factory-data-{timestamp}.json"
+
+    # Save the data to a JSON file
+    with open(file_name, 'w') as file:
+        json.dump(json_data, file, indent=4)
+
+    print(f"Data saved to {file_name}")
+
+
     generate(json_data)
     return jsonify({"message": "Second route triggered!"})
 

@@ -251,11 +251,11 @@ def generate_video(combined_video_path: str, tts_path: str, subtitles_path: str,
     # Make a generator that returns a TextClip when called with consecutive
     generator = lambda txt: TextClip(
         txt,
-        font="../fonts/bold_font.ttf",
-        fontsize=100,
+        font="../fonts/bloody_scene.ttf",
+        fontsize=125,
         color=text_color,
         stroke_color="black",
-        stroke_width=5,
+        stroke_width=2,
     )
 
     # Split the subtitles position into horizontal and vertical
