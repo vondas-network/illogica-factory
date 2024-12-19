@@ -11,6 +11,8 @@
 > They want to share what they've learned about your world.<br>
 > Will you listen?<br>
 
+https://github.com/user-attachments/assets/02bd158c-a6f7-4fd9-bad1-9484422c226d
+
 # How does it work technically?
 
 <h1 align="center">
